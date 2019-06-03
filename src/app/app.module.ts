@@ -11,6 +11,7 @@ import { MyNavbarComponent } from './components/shared/my-navbar/my-navbar.compo
 import { MembersComponent } from './components/members/members.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroDetailComponent } from './components/hero-detail/hero-detail.component';
+import { MessagesComponent } from './components/messages/messages.component';
 
 //Vendors
 
@@ -23,7 +24,8 @@ import { HeroDetailComponent } from './components/hero-detail/hero-detail.compon
     MyNavbarComponent,
     MembersComponent,
     HeroesComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
