@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { NgModule } from '@angular/core';
+
+
+import { MyNavbarComponent } from './components/shared/my-navbar/my-navbar.component';
 
 @Component({
   selector: 'app-root',
@@ -8,3 +12,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'appangular';
 }
+
+@NgModule({
+  declarations: [
+    MyNavbarComponent
+  ]
+})
+export class AppModule { }
